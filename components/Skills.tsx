@@ -2,7 +2,7 @@ import React from "react";
 import { BiLogoTypescript } from "react-icons/bi";
 import { FaHtml5, FaCss3Alt, FaReact, FaShopify } from "react-icons/fa";
 import { MdAutoGraph } from "react-icons/md";
-import styles from "../styles/skills.module.css";
+import styles from "../styles/Skills.module.css";
 
 const Skills = () => {
   return (

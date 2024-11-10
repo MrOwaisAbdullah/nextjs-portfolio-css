@@ -6,7 +6,7 @@ import { FaChevronRight } from "react-icons/fa"
 import { RiNextjsLine, RiWordpressLine } from "react-icons/ri"
 import { TbBrandTypescript } from "react-icons/tb"
 import Link from "next/link"
-import styles from "../styles/hero.module.css"
+import styles from "../styles/Hero.module.css"
 
 const Hero = () => {
   return (

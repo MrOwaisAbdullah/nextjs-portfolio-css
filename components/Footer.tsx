@@ -4,7 +4,7 @@ import Logo from "../public/assets/owais_logo.png";
 import Link from "next/link";
 import { FaLinkedin, FaFacebookSquare, FaInstagramSquare, FaGithubSquare } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
-import styles from '../styles/footer.module.css';
+import styles from '../styles/Footer.module.css';
 
 const Footer = () => {
   return (

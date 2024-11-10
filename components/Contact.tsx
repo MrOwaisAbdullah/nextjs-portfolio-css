@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import Link from "next/link";
 import contactimg from "../public/assets/contact.png";
-import styles from "../styles/contact.module.css";
+import styles from "../styles/Contact.module.css";
 
 const Contact = () => {
   return (

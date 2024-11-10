@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 import { FaArrowRight } from 'react-icons/fa'
-import styles from '../Styles/about.module.css'
+import styles from '../Styles/About.module.css'
 
 const About = () => {
   return (

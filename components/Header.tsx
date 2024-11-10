@@ -3,7 +3,7 @@ import React from 'react'
 import Logo from '../public/assets/owais_logo.png'
 import Link from 'next/link'
 import { FaArrowRight } from "react-icons/fa"
-import styles from "../styles/header.module.css"
+import styles from "../styles/Header.module.css"
 
 const Header = () => {
   return (

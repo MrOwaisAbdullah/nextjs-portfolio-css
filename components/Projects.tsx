@@ -8,7 +8,7 @@ import Project_4 from "../public/assets/Project (4).webp"
 import Project_5 from "../public/assets/Project (5).webp"
 import { FaRegArrowAltCircleRight } from "react-icons/fa";
 import Link from "next/link";
-import styles from "../styles/projects.module.css";
+import styles from "../styles/Projects.module.css";
 
 const Projects = () => {
   return (
