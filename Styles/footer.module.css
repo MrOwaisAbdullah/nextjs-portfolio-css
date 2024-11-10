@@ -1,0 +1,79 @@
+  .footerContainer {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1.25rem;
+    padding-top: 3rem;
+    text-align: left;
+  }
+  
+  .footerLogo img {
+    width: 80px;
+    height: 40px;
+  }
+  
+  /* Copyright text section */
+  .footerText {
+    font-size: 0.875rem; 
+    color: #9ca3af; 
+    margin-top: 1rem;
+  }
+  
+  .footerText a {
+    color: #6b7280; 
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footerText a:hover {
+    color: #3a69ff; 
+  }
+  
+  /* Social icons section */
+  .socialIcons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  @media (min-width: 640px) {
+    .socialIcons {
+      justify-content: flex-start;
+    }
+  }
+  
+  .socialIcons a {
+    color: #6b7280; 
+    font-size: 2rem;
+    transition: color 0.3s ease;
+  }
+  
+  /* Hover effects for social icons */
+  .socialIcons a:hover {
+    color: #171515;
+  }
+  
+  .socialIcons .twitter:hover {
+    color: #171515; 
+  }
+  
+  .socialIcons .linkedin:hover {
+    color: #0077B5; 
+  }
+  
+  .socialIcons .instagram:hover {
+    color: #d62976; 
+  }
+  
+  .socialIcons .github:hover {
+    color: #171515; 
+  }
+  
+  .socialIcons .facebook:hover {
+    color: #5890FF; 
+  }
+  

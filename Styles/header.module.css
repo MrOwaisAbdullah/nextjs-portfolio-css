@@ -1,0 +1,102 @@
+#header {
+    color: #b0b0b0;
+    background-color: #1f1f1f;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1.25rem;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+    }
+}
+
+/* Logo style */
+.logoLink {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+    .logoLink {
+        margin-bottom: 0;
+    }
+}
+
+/* Navigation style */
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1rem;
+    text-align: center;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .nav {
+        margin-left: auto;
+        width: auto;
+    }
+}
+
+.navLink {
+    margin-right: 1.25rem;
+    color: #ffffff;
+    text-decoration: none; 
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.navLink:hover {
+    color: #3a69ff;
+}
+
+/* button style */
+.hireButton {
+    display: inline-flex;
+    align-items: center;
+    background-color: #3a69ff;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 9999px;
+    text-decoration: none; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.hireButton:hover {
+    background-color: #ffffff;
+    color: #3a69ff;
+}
+
+.btntext {
+    color: #fff;
+    text-decoration: none;
+
+}
+.btntext:hover{
+    color: #3a69ff;
+}
+
+.icon {
+    padding-left: 0.75rem;
+}
+
+@media (min-width: 768px) {
+    .hireButton {
+        margin-top: 0;
+    }
+}
