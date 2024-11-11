@@ -1,0 +1,118 @@
+.section {
+  margin: 0 auto;
+  padding-top: 5rem;
+  scroll-behavior: smooth;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #3a69ff;
+  font-weight: 500;
+}
+
+.title {
+  margin-top: -20px;
+  font-size: 3.5rem;
+  color: #fff;
+  font-weight: 600;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(1, 1fr); 
+}
+
+.card {
+  background-color: #1f1f1f; 
+  border: 2px solid #333;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease-out;
+}
+
+.cardInner {
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.cardImage {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.cardContent {
+  padding: 1.5rem;
+}
+
+.category {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: #888;
+  margin-bottom: 0.5rem;
+}
+
+.projectTitle {
+  font-size: 1.25rem;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 1rem;
+  color: #ccc;
+  margin-bottom: 1rem;
+}
+
+.linkWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.learnMoreLink {
+  color: #3a69ff; 
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  transition: color 0.3s;
+  text-decoration: none;
+}
+
+.learnMoreLink:hover {
+  color: #fff;
+}
+
+.arrowIcon {
+  margin-left: 0.5rem;
+}
+
+@media (min-width: 640px) and (max-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+@media (min-width: 1025px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr); 
+  }
+}

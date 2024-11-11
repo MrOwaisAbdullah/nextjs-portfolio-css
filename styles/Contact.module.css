@@ -1,0 +1,162 @@
+#contactSection {
+  color: #b0b0b0;
+  display: grid;
+  position: relative;
+  background-color: #19191c;
+  padding: 24px;
+}
+
+.container {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.contactInfo {
+  background-color: #2d2d2d;
+  opacity: 0.9;
+  padding: 2rem 1.25rem;
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 400px;
+}
+
+.contactImage {
+  border-radius: 0.5rem;
+  margin: -1rem 0 1rem;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  justify-content: center;
+}
+
+.contactName {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.contactDescription {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 0.25rem;
+  line-height: 1.5;
+}
+
+.contactSubtitle {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.contactDetails,
+.contactLink {
+  margin-top: 0.25rem;
+  font-size: 0.875rem;
+  color: #3a69ff;
+  text-decoration: none;
+}
+
+/* Form styles */
+.contactFormContainer {
+  position: relative;
+  background-color: #212428;
+  flex: 1;
+  padding: 2rem 0;
+  margin-top: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.formTitle {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.formGroup {
+  margin-bottom: 1rem;
+}
+
+.formLabel {
+  color: #b0b0b0;
+  font-size: 0.875rem;
+}
+
+.formInput,
+.formTextarea {
+  width: 95%;
+  background-color: #27272a;
+  color: #b0b0b0;
+  padding: 0.75rem;
+  border: 1px solid #27272a;
+  border-radius: 0.25rem;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.6); /* Inner shadow */
+  transition: all 0.3s ease;
+}
+
+.formTextarea {
+  height: 10rem;
+}
+
+.formInput:focus,
+.formTextarea:focus {
+  border-color: #3a69ff;
+  outline: none;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.6), 0 0 0 1px #3a69ff; /* Inner shadow with border focus */
+}
+
+.submitButton {
+  background-color: #3a69ff;
+  color: #ffffff;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.submitButton:hover {
+  background-color: #ffffff;
+  color: #3a69ff;
+  transform: scale(1.05);
+}
+
+.formFooterText {
+  font-size: 0.75rem;
+  color: #b0b0b0;
+  text-align: center;
+  margin-top: 0.75rem;
+}
+
+@media (min-width: 640px) {
+  .container {
+    justify-content: space-evenly;
+  }
+
+  .contactFormContainer {
+    margin-left: auto;
+    max-width: 700px;
+  }
+}
+
+@media (min-width: 768px) {
+  .contactInfo {
+    width: 33%;
+  }
+
+  .contactFormContainer {
+    width: 60%;
+    margin-top: 0;
+  }
+}
