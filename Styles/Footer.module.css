@@ -1,21 +1,20 @@
   .footerContainer {
     max-width: 1400px;
     margin: 0 auto;
-    display: flex;
+    display: grid;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 0.5rem 1.25rem;
     padding-top: 3rem;
     text-align: left;
   }
   
-  .footerLogo img {
+  .footerLogo{
     width: 80px;
     height: 40px;
   }
   
-  /* Copyright text section */
   .footerText {
     font-size: 0.875rem; 
     color: #9ca3af; 
@@ -32,7 +31,6 @@
     color: #3a69ff; 
   }
   
-  /* Social icons section */
   .socialIcons {
     display: flex;
     gap: 1rem;
@@ -41,8 +39,12 @@
   }
   
   @media (min-width: 640px) {
-    .socialIcons {
-      justify-content: flex-start;
+    .footerContainer{
+      justify-content: space-evenly;
+    }
+
+    .footerLogo {
+      justify-items: center;
     }
   }
   
@@ -50,9 +52,9 @@
     color: #6b7280; 
     font-size: 2rem;
     transition: color 0.3s ease;
+    text-decoration: none;
   }
   
-  /* Hover effects for social icons */
   .socialIcons a:hover {
     color: #171515;
   }

@@ -1,52 +1,45 @@
 #header {
     color: #b0b0b0;
-    background-color: #1f1f1f;
+    background-color: #212428;
     text-decoration: none;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .container {
-    max-width: 1400px;
-    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     padding: 1.25rem;
-    flex-direction: column;
+    justify-content: space-between;
 }
 
-@media (min-width: 768px) {
-    .container {
-        flex-direction: row;
-    }
-}
 
-/* Logo style */
-.logoLink {
+.logo {
     display: flex;
     margin-bottom: 1rem;
 }
 
-@media (min-width: 768px) {
-    .logoLink {
-        margin-bottom: 0;
-    }
-}
-
-/* Navigation style */
 .nav {
-    display: flex;
-    flex-wrap: wrap;
+    display: none; 
     justify-content: center;
     margin-top: 1rem;
     text-align: center;
     width: 100%;
 }
 
-@media (min-width: 768px) {
-    .nav {
-        margin-left: auto;
-        width: auto;
-    }
+.navOpen {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    margin-top: 0.5rem;
+    padding: 2rem;
+    gap: 2.5rem;
+    flex-direction: column;
+    left: 0;
+    top: 60px;
+    background-color: #212428;
+    z-index: 50;
 }
 
 .navLink {
@@ -61,14 +54,14 @@
     color: #3a69ff;
 }
 
-/* button style */
 .hireButton {
     display: inline-flex;
+    max-width: 9rem;
     align-items: center;
     background-color: #3a69ff;
     color: #ffffff;
     font-weight: bold;
-    padding: 0.5rem 1rem;
+    padding: 0.8rem 1rem;
     border: none;
     border-radius: 9999px;
     text-decoration: none; 
@@ -83,20 +76,53 @@
 }
 
 .btntext {
-    color: #fff;
     text-decoration: none;
-
+    color: #ffffff;
+    font-size: 0.95rem;
 }
-.btntext:hover{
+
+.btntext:hover {
     color: #3a69ff;
 }
 
 .icon {
     padding-left: 0.75rem;
+    font-size: 1.1rem; 
+}
+
+.mobileMenuToggle {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -1rem;
+    font-size: 2rem;
+    color: #b0b0b0;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.mobileMenuToggle:hover {
+    color: #3a69ff;
 }
 
 @media (min-width: 768px) {
     .hireButton {
         margin-top: 0;
+        padding: 0.7rem 1rem;
+    }
+
+    .logoLink {
+        margin-bottom: 0;
+    }
+    .nav {
+        display: flex;
+        margin-left: auto;
+        margin-top: 0px;
+        width: auto;
+        align-items: center;
+    }
+    .mobileMenuToggle{
+        display: none;
     }
 }

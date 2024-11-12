@@ -4,6 +4,7 @@
   position: relative;
   background-color: #19191c;
   padding: 24px;
+  text-decoration: none;
 }
 
 .container {
@@ -15,6 +16,7 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 1rem;
+  text-decoration: none;
 }
 
 .contactInfo {
@@ -24,6 +26,7 @@
   border-radius: 0.5rem;
   width: 100%;
   max-width: 400px;
+  text-decoration: none;
 }
 
 .contactImage {
@@ -46,6 +49,7 @@
   font-family: "Montserrat", sans-serif;
   margin-top: 0.25rem;
   line-height: 1.5;
+  text-decoration: none;
 }
 
 .contactSubtitle {
@@ -54,6 +58,7 @@
   font-size: 0.75rem;
   font-weight: 600;
   margin-top: 1rem;
+  text-decoration: none;
 }
 
 .contactDetails,

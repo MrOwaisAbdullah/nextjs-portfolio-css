@@ -13,26 +13,12 @@
     padding: 2.5rem 1.25rem;
     flex-direction: column;
   }
-  
-  @media (min-width: 768px) {
-    .container {
-      flex-direction: row;
-      padding-left: 20px;
-    }
-  }
-  
+
   .introSection {
     flex-grow: 1;
     width: 100%;
     text-align: center;
     margin-bottom: 4rem;
-  }
-  
-  @media (min-width: 768px) {
-    .introSection {
-      text-align: left;
-      width: 60%;
-    }
   }
   
   .welcomeText {
@@ -70,12 +56,6 @@
     display: flex;
     justify-content: center;
     margin-top: 1.5rem;
-  }
-  
-  @media (min-width: 768px) {
-    .aboutButtonWrapper {
-      justify-content: flex-start;
-    }
   }
   
   .aboutButton {
@@ -117,11 +97,6 @@
     text-align: center;
   }
   
-  @media (min-width: 768px) {
-    .bestSkillText {
-      text-align: left;
-    }
-  }
   
   .skillsContainer {
     display: flex;
@@ -131,11 +106,6 @@
     margin-top: 1rem;
   }
   
-  @media (min-width: 768px) {
-    .skillsContainer {
-      justify-content: flex-start;
-    }
-  }
   
   .skillIcon {
     background-color: #333333;
@@ -155,7 +125,6 @@
     color: #000000;
   }
   
-  /* Image section */
   .imageSection {
     position: relative;
     width: 100%;
@@ -168,6 +137,23 @@
     .imageSection {
       width: 40%;
       margin-top: 0;
+    }
+    .aboutButtonWrapper {
+      justify-content: flex-start;
+    }
+    .container {
+      flex-direction: row;
+      padding-left: 20px;
+    }
+    .introSection {
+      text-align: left;
+      width: 60%;
+    }
+    .skillsContainer {
+      justify-content: flex-start;
+    }
+    .bestSkillText {
+      text-align: left;
     }
   }
   
@@ -194,7 +180,6 @@
     border-radius: 0.75rem;
   }
   
-  /* Divider line */
   .divider {
     width: 90%;
     height: 1px;
